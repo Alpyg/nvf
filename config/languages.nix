@@ -36,6 +36,11 @@
       yaml.enable = true;
       zig.enable = true;
 
+      dart = {
+        enable = true;
+        flutter-tools.enable = true;
+      };
+
       rust = {
         enable = true;
         extensions.crates-nvim.enable = true;
