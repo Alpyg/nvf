@@ -43,7 +43,12 @@
 
       rust = {
         enable = true;
-        extensions.crates-nvim.enable = true;
+        lsp.enable = false;
+        dap.enable = false;
+        extensions = {
+          crates-nvim.enable = true;
+          rustaceanvim.enable = true;
+        };
       };
     };
 
